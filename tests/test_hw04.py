@@ -1,5 +1,5 @@
 import pytest
-from hw04.main import bipartition
+from main import bipartition
 
 def is_valid_bipartition(graph, left, right):
     if left is None or right is None:
